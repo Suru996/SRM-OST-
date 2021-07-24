@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Insert Into Sql Using PHP</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Enter Detail of Book to Insert Into Database</h1>
+        <form method="POST" action="book.php">
+            <table>
+                <tr>
+                    <th>ISBN:</th>
+                    <td><input type="text" name="ISBN" placeholder="ISBN number" required/></td>
+                </tr>
+                <tr>
+                    <th>Author:</th>
+                    <td><input type="text" name="Name" placeholder="Author Name"/></td>
+                </tr>
+                <tr>
+                    <th>Title:</th>
+                    <td><input type="text" name="Title" placeholder="Title" /></td>
+                </tr>
+                <tr>
+                    <th>Publisher:</th>
+                    <td><input type="text" name="Publisher" placeholder="Publisher" /></td>
+                </tr>
+                <tr>
+                    <th>YOP</th>
+                    <td><input type="text" name="YOP" placeholder="Year Of Publish"/></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input class="Button" type="submit" value="Insert"/></td>
+                </tr>
+            </table>            
+        </form>
+    </body>
+</html>
