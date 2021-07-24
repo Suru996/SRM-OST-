@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Shopping Cart</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body
+            {
+                background-color: rgb(87, 85, 85);
+                color: beige;
+            }
+            table,tr,th,td
+            {
+                border: 2px solid orchid;
+                padding: 5px;
+            }
+            .but
+            {
+                background-color: rgb(87, 85, 85);
+                color: beige;
+                padding: 10px;
+                border: 2px solid rgb(233, 216, 194);
+                
+            }
+        </style>
+    </head>
+    <body>
+        <form method="post" action="Shop.php">
+            <table>
+                <tr>
+                    <th colspan="2"><h1>Select the Items to buy</h1></th>
+                </tr>
+                <tr>
+                    <th>Items</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="i[]" value="Milk"/> Milk<br/></td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="i[]" value="Honey"/> Honey<br/></td>
+                    <td>150</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="i[]" value="Curd"/> Curd<br/></td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="i[]" value="Cheese"/> Cheese<br/></td>
+                    <td>500</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="i[]" value="Egg"/> Egg<br/></td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="i[]" value="Oats"/> Oats<br/></td>
+                    <td>150</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="i[]" value="Rice"/> Rice<br/></td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="i[]" value="Noodle"/> Noodle<br/></td>
+                    <td>250</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input class="but" type="submit" value="Buy"/></td>
+                </tr>          
+            </table>
+        </form>
+    </body>
+</html>
