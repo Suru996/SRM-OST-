@@ -15,7 +15,7 @@ if ($request_method eq "POST")
     }
     my $dsn = "DBI:mysql:book";
     my $username = 'root';
-    my $password = 'B@by#1234';
+    my $password = 'root';
 
     my $dbh  = DBI->connect($dsn,$username,$password)or 
                 die("Error connecting to the database: $DBI::errstr\n");
