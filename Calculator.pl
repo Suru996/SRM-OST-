@@ -1,0 +1,11 @@
+print "Enter a number : ";
+$a=<STDIN>;
+chomp($a);
+print "Enter another number ";
+$b=<STDIN>;
+chomp($b);
+print"Enter the operation you want to perform ";
+$c=<STDIN>;
+chomp($c);
+$r = eval "$a $c $b";
+print "\nResult of $a $c $b = $r\n";
