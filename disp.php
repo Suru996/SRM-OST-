@@ -6,7 +6,7 @@
         <?php
         if ($_SERVER["REQUEST_METHOD"]=="POST")
         {
-            $con = new mysqli("localhost","root","B@by#1234","book");
+            $con = new mysqli("localhost","root","root","book");
             if($con->connect_error)
             {
                 echo "Connection couldn't be established";
