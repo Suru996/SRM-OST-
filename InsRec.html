@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Insert Into Sql Using Perl</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Enter Name and Age to Insert Into Database</h1>
+        <form method="POST" action="DIspRec.pl">
+            <table>
+                <tr>
+                    <th>Name:</th>
+                    <td><input type="text" name="Name" Placeholder="Full Name"/></td>
+                </tr>
+                <tr>
+                    <th>Age:</th>
+                    <td><input type="number" name="Age" placeholder="0" min="0" oninput="validity.valid||(value='0');"/></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input class="Button" type="submit" value="Insert"/></td>
+                </tr>
+            </table>            
+        </form>
+    </body>
+</html>
